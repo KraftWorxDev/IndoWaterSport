@@ -1,8 +1,9 @@
 /* @refresh reload */
 import { render } from 'solid-js/web';
-
 import './index.css';
 import App from './App';
+import { Router } from '@solidjs/router';
+import MainLayout from './layouts/MainLayout';
 
 const root = document.getElementById('root');
 
@@ -12,4 +13,10 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
   );
 }
 
-render(() => <App />, root!);
+render(() => 
+<Router>
+  <MainLayout>
+    <App />
+  </MainLayout>
+</Router>
+, root!);
