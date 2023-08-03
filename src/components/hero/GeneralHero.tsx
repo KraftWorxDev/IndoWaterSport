@@ -1,6 +1,7 @@
 import { Component } from "solid-js";
 import Backgroud from "../../assets/img/turtle-1050x722-1.jpg"
 import Turtle from "../../assets/video/turtle_-_35427 (Original).mp4"
+import { A } from "@solidjs/router";
 
 const GeneralHero:Component = () => {
     const handleScroll = () => {
@@ -27,11 +28,14 @@ const GeneralHero:Component = () => {
                     </h3>
                     <br />
                     <div class="w-full flex justify-center sm:float-none sm:justify-start">
-                        <button
-                            onClick={handleScroll} 
-                            class="border-2 text-white hover:text-black border-white hover:bg-white h-12 w-36 text-lg rounded-full">
-                            Get Started
-                        </button>
+                        <A href="#about">
+                            <div
+                                class="border-2 flex text-white hover:text-black border-white hover:bg-white h-12 w-36 text-lg rounded-full">
+                                <p class="m-auto">
+                                    Get Started
+                                </p>
+                            </div>
+                        </A>
                     </div>
                 </div>
             </div>
