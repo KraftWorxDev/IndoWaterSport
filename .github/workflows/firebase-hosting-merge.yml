@@ -19,4 +19,4 @@ jobs:
           channelId: live
           projectId: indowatersport-6badf
         env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
