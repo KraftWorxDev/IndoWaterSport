@@ -3,7 +3,7 @@ import BanannaBoat from "../../assets/img/photo-1564633351631-e85bd59a91af.avif"
 
 const Intro:Component = () => {
     return (
-        <div class="w-full py-16" style={{"background-color":"#DFE7EA"}} >
+        <div class="w-full py-16 scroll-my-10" style={{"background-color":"#DFE7EA"}} id="about">
             <div class="sm:w-10/12 flex flex-wrap m-auto">
                 <div class="w-full sm:w-1/3 px-3 sm:px-0 pb-10 sm:pb-0">
                     <img 

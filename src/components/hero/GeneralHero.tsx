@@ -9,7 +9,8 @@ const GeneralHero:Component = () => {
 
     return (
         <div 
-            class="w-full h-[86vh] sm:h-[80vh] relative bg-gray-100 overflow-hidden"
+            class="w-full h-[86vh] scroll-my-10 sm:h-[80vh] relative bg-gray-100 overflow-hidden"
+            id="home"
         >
             <video src={Turtle} autoplay muted playsinline loop class="back-video">
             </video>

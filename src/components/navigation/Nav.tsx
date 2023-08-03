@@ -9,50 +9,55 @@ const Nav: Component = () => {
         {
             id: 1,
             name: 'Home',
-            key: 'home'
+            keyId: '#home'
         },
         {
             id: 2,
             name: 'About us',
-            key: 'about'
+            keyId: '#about'
         },
         {
             id: 3,
             name: 'Packages',
-            key: 'packages'
+            keyId: '#packages'
+        },
+        {
+            id: 4,
+            name: 'Why us',
+            keyId: '#why'
         },
     ]
 
-    const handleScroll = (e: string) => {
-        if(e === 'home'){
-            window.scroll(0,0);
-        }
-        if(e === 'about'){
-            window.scroll(0,600);
-        }
-        if(e === 'packages'){
-            window.scroll(0,1000);
-        }
-    }
+    // const handleScroll = (e: string) => {
+    //     if(e === 'home'){
+    //         window.scroll(0,0);
+    //     }
+    //     if(e === 'about'){
+    //         window.scroll(0,600);
+    //     }
+    //     if(e === 'packages'){
+    //         window.scroll(0,1000);
+    //     }
+    // }
 
-    const handleMobileScroll = (e: string) => {
-        if(e === 'home'){
-            window.scroll(0,0);
-            setToggleMobileMenu(false);
-        }
-        if(e === 'about'){
-            window.scroll(0,650);
-            setToggleMobileMenu(false);
-        }
-        if(e === 'packages'){
-            window.scroll(0,1450);
-            setToggleMobileMenu(false);
-        }
-    }
+    // const handleMobileScroll = (e: string) => {
+    //     if(e === 'home'){
+    //         window.scroll(0,0);
+    //         setToggleMobileMenu(false);
+    //     }
+    //     if(e === 'about'){
+    //         window.scroll(0,650);
+    //         setToggleMobileMenu(false);
+    //     }
+    //     if(e === 'packages'){
+    //         window.scroll(0,1450);
+    //         setToggleMobileMenu(false);
+    //     }
+    // }
 
     return (
         <>
-            <nav class="w-full sticky top-0 bg-white border-b z-40">
+            <nav class="w-full bg-white sticky top-0 border-b z-40">
                 <div class="px-3 sm:px-0 sm:w-10/12 flex justify-between m-auto py-1 items-center">
                     <div>
                         <img
@@ -63,13 +68,14 @@ const Nav: Component = () => {
                     <div class="hidden sm:flex gap-20 text">
                         <For each={Links}>{
                             (l) => 
-                                <button
-                                    onClick={() => handleScroll(l.key)}
+                                <a
+                                    href={l.keyId}
+                                    // onClick={() => handleScroll(l.key)}
                                 >
                                     <div class="link-s">
                                         {l.name}
                                     </div>
-                                </button>
+                                </a>
                         }</For>
                     </div>
                     <div class="flex items-center">
@@ -87,36 +93,42 @@ const Nav: Component = () => {
                                     <IoMenuOutline class="sm:hidden text-3xl" />
                                 </button>
                         }
-                        <button
-                            class="bg-black text-white hidden sm:block h-10 w-32 rounded-full"
-                        >
-                            Enquire Now
-                        </button>
+                        <a
+                            href="#contact"
+                            >
+                            <div
+                                class="bg-black text-white hidden sm:flex h-10 w-32 rounded-full"
+                            >
+                                <p class="m-auto">
+                                    Enquire Now
+                                </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </nav>
             <div class={`${toggleMobileMenu() ? 'w-full' : 'w-0'} duration-300 overflow-hidden flex ease-in-out bg-sky-500 h-screen fixed top-0 left-0 z-30 sm:hidden`}>
                 <div class="w-full m-auto text-center gap-14 flex text-white text-3xl font-semibold flex-wrap">
                     <button 
-                        onClick={() => handleMobileScroll('home')}
+                        // onClick={() => handleMobileScroll('home')}
                         class="w-full"
                     >
                         Home
                     </button>
                     <button 
-                        onClick={() => handleMobileScroll('about')}
+                        // onClick={() => handleMobileScroll('about')}
                         class="w-full"
                     >
                         About us
                     </button>
                     <button 
-                        onClick={() => handleMobileScroll('packages')}
+                        // onClick={() => handleMobileScroll('packages')}
                         class="w-full"
                     >
                         Packages
                     </button>
                     <button 
-                        onClick={() => handleMobileScroll('contact')}
+                        // onClick={() => handleMobileScroll('contact')}
                         class="w-full"
                     >
                         Contact us

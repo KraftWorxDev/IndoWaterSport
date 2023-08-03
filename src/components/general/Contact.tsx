@@ -93,7 +93,7 @@ const Contact: Component = () => {
 
     return (
         <>
-            <div class="w-full pt-16 pb-5 bg-gray-50">
+            <div class="w-full scroll-my-10 pt-16 pb-5 bg-gray-50" id="contact">
                 <div class="px-3 sm:w-10/12 m-auto">
                     <h3 class="text-5xl sm:text-6xl font-extrabold text-center">
                         GET INTOUCH WITH US

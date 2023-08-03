@@ -22,7 +22,7 @@ const Packages:Component = () => {
         }
 
     return (
-        <div class="w-full pt-12 pb-16">
+        <div class="w-full scroll-my-10 pt-12 pb-16" id="packages">
             <div class="sm:w-10/12 m-auto relative">
                 <div class="full pb-5">
                     <h1 class="text-5xl sm:text-6xl font-extrabold text-center">

@@ -18,15 +18,27 @@ const Footer: Component = () => {
                     <div class="w-full sm:w-3/5 flex mt-5 sm:mt-0">
                         <ul class="pt-3 text-xl flex gap-4 mx-auto">
                             <li class="py-1">
-                                Home
+                                <a href="#home">
+                                    Home
+                                </a>
                             </li>
                             <li>|</li>
                             <li class="py-1">
-                                About
+                                <a href="#about">
+                                    About us
+                                </a>
                             </li>
                             <li>|</li>
                             <li class="py-1">
-                                Packages
+                                <a href="#contact">
+                                    Packages
+                                </a>
+                            </li>
+                            <li>|</li>
+                            <li class="py-1">
+                                <a href="#why">
+                                    Why us
+                                </a>
                             </li>
                         </ul>
                     </div>
