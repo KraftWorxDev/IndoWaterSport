@@ -18,5 +18,3 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_INDOWATERSPORT_6BADF }}'
           channelId: live
           projectId: indowatersport-6badf
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
