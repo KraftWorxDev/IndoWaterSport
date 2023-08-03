@@ -115,7 +115,7 @@ const Contact: Component = () => {
                                         onChange={handleFormdataChange}
                                         onInput={handleFormdataErrorChange}
                                         placeholder={formDataError().name ? formDataError().name :"Name"}
-                                        class={`w-full h-10 px-2 border placeholder:text-sky-500 ${formDataError().name ? 'border-red-400 bg-red-50 placeholder:text-red-500' :'border-sky-500 text-sky-600 bg-sky-50'} rounded outline-none`}
+                                        class={`w-full h-10 px-2 border ${formDataError().name ? 'border-red-400 bg-red-50 placeholder:text-red-500' :'border-sky-500 text-sky-600 bg-sky-50 placeholder:text-sky-500 '} rounded outline-none`}
                                     />
                                 </div>
                                 <div class="w-full sm:w-1/2">
@@ -129,7 +129,7 @@ const Contact: Component = () => {
                                         onChange={handleFormdataChange}
                                         onInput={handleFormdataErrorChange}
                                         placeholder={formDataError().surname ? formDataError().surname :"Surname"}
-                                        class={`w-full h-10 px-2 border placeholder:text-sky-500 ${formDataError().surname ? 'border-red-400 bg-red-50 placeholder:text-red-500' :'border-sky-500 text-sky-600 bg-sky-50'} rounded outline-none`}
+                                        class={`w-full h-10 px-2 border ${formDataError().surname ? 'border-red-400 bg-red-50 placeholder:text-red-500' :'border-sky-500 text-sky-600 bg-sky-50 placeholder:text-sky-500'} rounded outline-none`}
                                     />
                                 </div>
                             </div>
@@ -145,7 +145,7 @@ const Contact: Component = () => {
                                         onChange={handleFormdataChange}
                                         onInput={handleFormdataErrorChange}
                                         placeholder={formDataError().email ? formDataError().email :"Email"}
-                                        class={`w-full h-10 px-2 border placeholder:text-sky-500 ${formDataError().email ? 'border-red-400 bg-red-50 placeholder:text-red-500' :'border-sky-500 text-sky-600 bg-sky-50'} rounded outline-none`}
+                                        class={`w-full h-10 px-2 border ${formDataError().email ? 'border-red-400 bg-red-50 placeholder:text-red-500' :'border-sky-500 text-sky-600 bg-sky-50 placeholder:text-sky-500'} rounded outline-none`}
                                     />
                                 </div>
                                 <div class="w-full sm:w-1/2">
@@ -159,7 +159,7 @@ const Contact: Component = () => {
                                         onChange={handleFormdataChange}
                                         onInput={handleFormdataErrorChange}
                                         placeholder={formDataError().cellphone ? formDataError().cellphone :"Cellphone"}
-                                        class={`w-full h-10 px-2 border placeholder:text-sky-500 ${formDataError().cellphone ? 'border-red-400 bg-red-50 placeholder:text-red-500' :'border-sky-500 text-sky-600 bg-sky-50'} rounded outline-none`}
+                                        class={`w-full h-10 px-2 border ${formDataError().cellphone ? 'border-red-400 bg-red-50 placeholder:text-red-500' :'border-sky-500 text-sky-600 bg-sky-50 placeholder:text-sky-500'} rounded outline-none`}
                                     />
                                 </div>
                             </div>
@@ -171,7 +171,7 @@ const Contact: Component = () => {
                                     name="subject"
                                     onChange={handleFormdataChange}
                                     onInput={handleFormdataErrorChange}
-                                    class={`w-full h-10 px-2 border text-sky-500 ${formDataError().subject ? 'border-red-400 bg-red-50 text-red-500' :'border-sky-500 bg-sky-50'} rounded outline-none`}
+                                    class={`w-full h-10 px-2 border ${formDataError().subject ? 'border-red-400 bg-red-50 text-red-500' :'border-sky-500 text-sky-500 bg-sky-50'} rounded outline-none`}
                                 >
                                     {formData().subject
                                         ?
@@ -203,7 +203,7 @@ const Contact: Component = () => {
                                     onChange={handleFormdataChange}
                                     onInput={handleFormdataErrorChange}
                                     placeholder={formDataError().message ? formDataError().message :"Enter some text"}
-                                    class={`w-full border ${formDataError().message ? 'border-red-400 bg-red-50 placeholder:text-red-500' : 'border-sky-500 text-sky-600 bg-sky-50'} rounded p-2 placeholder:text-sky-500 outline-none resize-none h-40`}
+                                    class={`w-full border ${formDataError().message ? 'border-red-400 bg-red-50 placeholder:text-red-500' : 'border-sky-500 text-sky-600 bg-sky-50 placeholder:text-sky-500'} rounded p-2 outline-none resize-none h-40`}
                                 />
                             </div>
                             <button class="bg-sky-500 text-white w-full h-10 rounded mt-5">
