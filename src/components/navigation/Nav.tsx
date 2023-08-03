@@ -60,10 +60,12 @@ const Nav: Component = () => {
             <nav class="w-full bg-white sticky top-0 border-b z-40">
                 <div class="px-3 sm:px-0 sm:w-10/12 flex justify-between m-auto py-1 items-center">
                     <div>
-                        <img
-                            class="h-12" 
-                            src={Logo} alt="indowatersports logo" 
-                        />
+                        <a href="#home">
+                            <img
+                                class="h-12" 
+                                src={Logo} alt="indowatersports logo" 
+                            />
+                        </a>
                     </div>
                     <div class="hidden sm:flex gap-20 text">
                         <For each={Links}>{
