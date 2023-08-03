@@ -26,34 +26,12 @@ const Nav: Component = () => {
             name: 'Why us',
             keyId: '#why'
         },
-    ]
-
-    // const handleScroll = (e: string) => {
-    //     if(e === 'home'){
-    //         window.scroll(0,0);
-    //     }
-    //     if(e === 'about'){
-    //         window.scroll(0,600);
-    //     }
-    //     if(e === 'packages'){
-    //         window.scroll(0,1000);
-    //     }
-    // }
-
-    // const handleMobileScroll = (e: string) => {
-    //     if(e === 'home'){
-    //         window.scroll(0,0);
-    //         setToggleMobileMenu(false);
-    //     }
-    //     if(e === 'about'){
-    //         window.scroll(0,650);
-    //         setToggleMobileMenu(false);
-    //     }
-    //     if(e === 'packages'){
-    //         window.scroll(0,1450);
-    //         setToggleMobileMenu(false);
-    //     }
-    // }
+        {
+            id: 5,
+            name: 'Gallery',
+            keyId: '/gallery'
+        },
+    ];
 
     return (
         <>
@@ -99,7 +77,7 @@ const Nav: Component = () => {
                             href="#contact"
                             >
                             <div
-                                class="bg-black text-white hidden lg:flex h-10 w-32 rounded-full"
+                                class=" text-white hidden lg:flex h-10 w-32 rounded-full" style={{"background-color":"#FF4802"}}
                             >
                                 <p class="m-auto">
                                     Enquire Now
