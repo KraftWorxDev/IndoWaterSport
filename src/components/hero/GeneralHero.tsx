@@ -16,7 +16,7 @@ const GeneralHero:Component = () => {
             </video>
             <div class="w-full h-full absolute z-20 top-0 flex">
                 <div class="w-11/12 sm:w-7/12 m-auto">
-                    <h1 class="opacity-80 text-center sm:text-left text-5xl sm:text-7xl font-extrabold text-white">
+                    <h1 class="opacity-80 text-center sm:text-left text-5xl sm:text-7xl font-extrabold text-white HeroText">
                         WELCOME TO 
                         <br />
                         INDO WATERSPORT

@@ -2,7 +2,7 @@ const Why = () => {
     return (
         <div class="w-full scroll-my-10 py-16" style={{"background-color":"#DEE7E9"}} id="why">
             <div class="px-4 sm:w-10/12 m-auto py-5 sm:px-12">
-                <h1 class="text-5xl sm:text-6xl font-extrabold text-center">
+                <h1 class="text-5xl sm:text-6xl font-bold text-center">
                     WHY CHOOSE US?
                 </h1>
                 <br />

@@ -58,7 +58,7 @@ const Nav: Component = () => {
     return (
         <>
             <nav class="w-full bg-white sticky top-0 border-b z-40">
-                <div class="px-3 sm:px-0 sm:w-10/12 flex justify-between m-auto py-1 items-center">
+                <div class="px-3 lg:px-0 lg:w-10/12 flex justify-between m-auto py-1 items-center">
                     <div>
                         <a href="#home">
                             <img
@@ -67,17 +67,17 @@ const Nav: Component = () => {
                             />
                         </a>
                     </div>
-                    <div class="hidden sm:flex gap-20 text">
+                    <div class="hidden lg:flex gap-20 text">
                         <For each={Links}>{
                             (l) => 
-                                <a
+                                <A
                                     href={l.keyId}
                                     // onClick={() => handleScroll(l.key)}
                                 >
                                     <div class="link-s">
                                         {l.name}
                                     </div>
-                                </a>
+                                </A>
                         }</For>
                     </div>
                     <div class="flex items-center">
@@ -86,30 +86,30 @@ const Nav: Component = () => {
                                 <button
                                     onClick={() => setToggleMobileMenu(false)}
                                 >
-                                    <IoClose class="sm:hidden text-3xl" />
+                                    <IoClose class="lg:hidden text-3xl" />
                                 </button>
                             :
                                 <button
                                     onClick={() => setToggleMobileMenu(true)}
                                 >
-                                    <IoMenuOutline class="sm:hidden text-3xl" />
+                                    <IoMenuOutline class="lg:hidden text-3xl" />
                                 </button>
                         }
-                        <a
+                        <A
                             href="#contact"
                             >
                             <div
-                                class="bg-black text-white hidden sm:flex h-10 w-32 rounded-full"
+                                class="bg-black text-white hidden lg:flex h-10 w-32 rounded-full"
                             >
                                 <p class="m-auto">
                                     Enquire Now
                                 </p>
                             </div>
-                        </a>
+                        </A>
                     </div>
                 </div>
             </nav>
-            <div class={`${toggleMobileMenu() ? 'w-full' : 'w-0'} duration-300 overflow-hidden flex ease-in-out bg-sky-500 h-screen fixed top-0 left-0 z-30 sm:hidden`}>
+            <div class={`${toggleMobileMenu() ? 'w-full' : 'w-0'} duration-300 overflow-hidden flex ease-in-out bg-sky-500 h-screen fixed top-0 left-0 z-30 lg:hidden`}>
                 <div class="w-full m-auto text-center gap-14 flex text-white text-3xl font-semibold flex-wrap">
                     <a 
                         href="#home"

@@ -13,7 +13,7 @@ const Intro:Component = () => {
                     />
                 </div>
                 <div class="w-full sm:w-2/3 px-10">
-                    <h1 class="font-extrabold text-5xl sm:text-6xl">
+                    <h1 class="font-bold text-5xl sm:text-6xl">
                         WELCOME TO<br></br> INDO WATERSPORT
                     </h1>
                     <h2 class="py-5 font-semibold" style={{"color":"#9ba6aa"}}>

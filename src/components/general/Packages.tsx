@@ -14,7 +14,7 @@ const Packages:Component = () => {
                 "(min-width: 400px)": {
                 slides: { perView: 1, spacing: 5 },
                 },
-                "(min-width: 1000px)": {
+                "(min-width: 700px)": {
                 slides: { perView: 2, spacing: 10 },
                 },
             },
@@ -25,7 +25,7 @@ const Packages:Component = () => {
         <div class="w-full scroll-my-10 pt-12 pb-16" id="packages">
             <div class="sm:w-10/12 m-auto relative">
                 <div class="full pb-5">
-                    <h1 class="text-5xl sm:text-6xl font-extrabold text-center">
+                    <h1 class="text-5xl sm:text-6xl font-bold text-center">
                         OUR PACKAGES
                     </h1>
                     <h3 class="font-bold text-center pt-4" style={{"color":"#9ba6aa"}}>
@@ -36,8 +36,10 @@ const Packages:Component = () => {
                     <div class="w-11/12 m-auto">
                         <Slider options={options}>
                             <div class="w-11/12 sm:w-full relative bg-white border rounded shadow-lg border-gray-300">
-                                <div class="h-72 bg-gray-100" style={{"background-image":`url(${Boat})`, "background-size":"cover"}}>
-
+                                <div class="h-72 bg-gray-100 relative" style={{"background-image":`url(${Boat})`, "background-size":"cover"}}>
+                                    <div class=" left-3 top-3 rounded-full shadow text-center font-semibold w-32 py-1 bg-white absolute">
+                                        IDR 1 000 000
+                                    </div>
                                 </div>
                                 <div class="px-3 py-2 h-44">
                                     <h3 class="font-semibold text-center">
@@ -56,14 +58,16 @@ const Packages:Component = () => {
                                         <button
                                             class="bg-black text-white h-9 w-28 rounded-full"
                                         >
-                                            Book Now
+                                            Read More
                                         </button>
                                     </div>
                                 </div>
                             </div>
                             <div class="w-11/12 sm:w-full relative bg-white border rounded shadow-lg border-gray-300">
-                                <div class="h-72 bg-gray-100" style={{"background-image":`url(${Canoo})`, "background-size":"cover"}}>
-
+                                <div class="h-72 relative bg-gray-100" style={{"background-image":`url(${Canoo})`, "background-size":"cover"}}>
+                                    <div class=" left-3 top-3 rounded-full font-semibold shadow w-32 py-1 text-center bg-white absolute">
+                                        IDR 1 495 000
+                                    </div>
                                 </div>
                                 <div class="px-3 py-2 h-44">
                                     <h3 class="font-semibold text-center">
@@ -79,7 +83,7 @@ const Packages:Component = () => {
                                         <button
                                             class="bg-black text-white h-9 w-28 rounded-full"
                                         >
-                                            Book Now
+                                            Read More
                                         </button>
                                     </div>
                                 </div>
