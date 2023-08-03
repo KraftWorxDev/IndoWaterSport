@@ -111,30 +111,41 @@ const Nav: Component = () => {
             </nav>
             <div class={`${toggleMobileMenu() ? 'w-full' : 'w-0'} duration-300 overflow-hidden flex ease-in-out bg-sky-500 h-screen fixed top-0 left-0 z-30 sm:hidden`}>
                 <div class="w-full m-auto text-center gap-14 flex text-white text-3xl font-semibold flex-wrap">
-                    <button 
-                        // onClick={() => handleMobileScroll('home')}
+                    <a 
+                        href="#home"
                         class="w-full"
+                        onClick={() => setToggleMobileMenu(false)}
                     >
                         Home
-                    </button>
-                    <button 
-                        // onClick={() => handleMobileScroll('about')}
+                    </a>
+                    <a 
+                        href="#about"// onClick={() => handleMobileScroll('about')}
                         class="w-full"
+                        onClick={() => setToggleMobileMenu(false)}
                     >
                         About us
-                    </button>
-                    <button 
-                        // onClick={() => handleMobileScroll('packages')}
+                    </a>
+                    <a 
+                        href="#packages"// onClick={() => handleMobileScroll('packages')}
                         class="w-full"
+                        onClick={() => setToggleMobileMenu(false)}
                     >
                         Packages
-                    </button>
-                    <button 
-                        // onClick={() => handleMobileScroll('contact')}
+                    </a>
+                    <a 
+                        href="#why"// onClick={() => handleMobileScroll('packages')}
                         class="w-full"
+                        onClick={() => setToggleMobileMenu(false)}
                     >
-                        Contact us
-                    </button>
+                        Why us
+                    </a>
+                    <a 
+                        href="#contact"// onClick={() => handleMobileScroll('contact')}
+                        class="w-full"
+                        onClick={() => setToggleMobileMenu(false)}
+                    >
+                        Enquire Now
+                    </a>
                 </div>
             </div>
         </>
