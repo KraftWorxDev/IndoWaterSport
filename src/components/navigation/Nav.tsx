@@ -2,6 +2,7 @@ import { Component, For, createSignal } from "solid-js";
 import Logo from "../../assets/img/Indowatersports-Logo.png"
 import {A} from "@solidjs/router"
 import { IoClose, IoMenuOutline } from "solid-icons/io";
+import MoreInfoModal from "../modal/MoreInfoModal";
 
 const Nav: Component = () => {
     const [toggleMobileMenu,setToggleMobileMenu] = createSignal(false)
@@ -77,7 +78,7 @@ const Nav: Component = () => {
                             href="#contact"
                             >
                             <div
-                                class=" text-white hidden lg:flex h-10 w-32 rounded-full" style={{"background-color":"#FF4802"}}
+                                class=" text-white hidden lg:flex h-10 w-32 rounded-full buttonHome"
                             >
                                 <p class="m-auto">
                                     Enquire Now
@@ -126,6 +127,7 @@ const Nav: Component = () => {
                     </a>
                 </div>
             </div>
+            <MoreInfoModal />
         </>
     )
 }

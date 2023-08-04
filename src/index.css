@@ -13,6 +13,14 @@
     z-index: 1;
 }
 
+.buttonHome {
+  background-color: #ff4802;
+}
+
+.buttonHome:hover {
+  background-color: #e64102;
+}
+
 @media (min-aspect-ratio: 16/9){
     .back-video{
         width: 100%;

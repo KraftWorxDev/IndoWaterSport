@@ -4,6 +4,7 @@ import Intro from "../components/general/Intro";
 import Packages from "../components/general/Packages";
 import Why from "../components/general/Why";
 import ContactForm from "../components/general/Contact"
+import MoreInfoModal from "../components/modal/MoreInfoModal";
 
 const Home: Component = () => {
     return (

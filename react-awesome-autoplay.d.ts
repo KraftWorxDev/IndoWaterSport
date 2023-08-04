@@ -1,0 +1,1 @@
+declare module 'solid-slider/plugins/autoplay';
