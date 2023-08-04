@@ -33,7 +33,7 @@ const Why = () => {
                 </h3>
                 <br />
                 <p class="text-center">
-                    As an environmentally conscious water sport company in Bali, we will implement practices such as promoting marine conservation, minimizing pollution by using eco-friendly equipment and fuels, and educating our customers about responsible water activities to ensure a sustainable and minimal impact on the marine ecosystem.
+                    As an environmentally conscious water sport company on the Gili Islands, we will implement practices such as promoting marine conservation, minimizing pollution by using eco-friendly equipment and fuels, and educating our customers about responsible water activities to ensure a sustainable and minimal impact on the marine ecosystem.
                 </p>
                 <br />
                 <h3 class="text-center font-bold text-xl">

@@ -25,11 +25,55 @@ const MoreInfoModal = () => {
                     class="absolute -right-3 -top-3 flex text-gray-500 h-6 w-6 rounded-full bg-gray-50 ">
                     <IoClose class="m-auto text-lg"/>
                 </button>
-                <h1 class="text-xl">
+                <h1 class="text-xl font-semibold">
                     {modalTitleState()}
                 </h1>
+                <br/>
                 <p>
-                    {modalTextState()}
+                    {modalTextState() === 'full' 
+                        ?
+                        <div>
+                            <p>
+                                The full day tour is the entire day departing Gili Trawangan at 8:30am and concluding at 9:00pm. 
+                                Check-in 8am.   Patrons will enjoy 1 hour 30 min at each snorkelling point and 4 hours in Pantai Sire, entertained by water sport activities and beach volleyball. 
+                            </p>
+                            <br/>
+                            <p>
+                                Patrons shall be served a lunch on the beach in Pantai Sire which shall be on offer for 2 hours 30 minutes. 
+                                On return to Gili Trawangan from snorkelling at Turtle Point and enjoying spectacular sunset view on the ocean.
+                                Patrons shall be treated to a full dinner at Oceans 2 Restaurant , concluding 9:00pm.
+                            </p>
+                            <br/>
+                            <p class="font-semibold">Time Schedule:</p>
+                            <br/>
+                            <ul class="list-disc pl-5">
+                                <li>
+                                    Departure (Gili Trawangan) 8:30am 
+                                </li>
+                                <li>
+                                    Snorkelling Statue (Gili Meno) 8:40-10:10   
+                                </li>
+                                <li>
+                                    Snorkelling Garden Fish (Gili Air) 10:40-12:10 
+                                </li>
+                                <li>
+                                    Water Sports and Lunch (Pantai Sire) 12:20-4:20 
+                                </li>
+                                <li>
+                                    Snorkelling Turtle Point (Gili Trawangan) 4:50-6:20 
+                                </li>
+                                <li>
+                                    Dinner at Ocean 2 Restaurant (Gili Trawangan) 6:30-9:00pm 
+                                </li>
+                            </ul>
+                            <br/>
+                            <p>
+                                *The times above include traveling time between destinations 
+                            </p>
+                        </div>
+                        : 
+                        null
+                    }
                 </p>
             </div>
         </div>

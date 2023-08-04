@@ -89,17 +89,7 @@ body::-webkit-scrollbar-thumb {
     100% { transform: rotate(360deg); }
   }
 
-  .HeroText {
-    /* font: 800 40px Arial; */
-  -webkit-text-fill-color: transparent;
-    -webkit-text-stroke:2px;
-  }
-
-  .HeroText:hover {
-    /* font: 800 40px Arial; */
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke:2px;
-  }
+  
 
   html {
     scroll-behavior: smooth;
