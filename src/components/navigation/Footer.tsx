@@ -7,7 +7,7 @@ const Footer: Component = () => {
     return (
         <>
             <div class="w-full py-2 bg-sky-500">
-                <div class="w-9/12 text-white m-auto flex flex-wrap">
+                <div class="w-full sm:w-9/12 text-white m-auto flex flex-wrap">
                     <div class="w-full flex sm:w-1/5">
                         <a href="#home">
                             <img 
@@ -18,7 +18,7 @@ const Footer: Component = () => {
                         </a>
                     </div>
                     <div class="w-full sm:w-3/5 flex mt-5 sm:mt-0">
-                        <ul class="pt-3 text-xl flex gap-4 mx-auto">
+                        <ul class="pt-3 text-lg sm:text-xl flex gap-4 mx-auto">
                             <li class="py-1">
                                 <a href="#home">
                                     Home
