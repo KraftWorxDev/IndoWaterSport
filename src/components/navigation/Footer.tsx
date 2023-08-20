@@ -32,7 +32,7 @@ const Footer: Component = () => {
                             </li>
                             <li>|</li>
                             <li class="py-1">
-                                <a href="#contact">
+                                <a href="#packages">
                                     Packages
                                 </a>
                             </li>
