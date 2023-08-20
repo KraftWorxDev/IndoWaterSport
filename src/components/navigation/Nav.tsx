@@ -119,6 +119,13 @@ const Nav: Component = () => {
                         Why us
                     </a>
                     <a 
+                        href="/gallery"// onClick={() => handleMobileScroll('packages')}
+                        class="w-full"
+                        onClick={() => setToggleMobileMenu(false)}
+                    >
+                        Gallery
+                    </a>
+                    <a 
                         href="#contact"// onClick={() => handleMobileScroll('contact')}
                         class="w-full"
                         onClick={() => setToggleMobileMenu(false)}
