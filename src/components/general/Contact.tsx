@@ -178,16 +178,16 @@ const Contact: Component = () => {
                                             <>
                                                 <option>{formData().subject}</option>
                                                 <option>Water sports package</option>
-                                                <option>Half day package package</option>
                                                 <option>Full day package</option>
+                                                <option>Booking Equiry</option>
                                                 <option>General enquiry</option>
                                             </>
                                         :
                                             <>
                                                 <option>Select</option>
                                                 <option>Water sports package</option>
-                                                <option>Half day package package</option>
                                                 <option>Full day package</option>
+                                                <option>Booking Equiry</option>
                                                 <option>General enquiry</option>
                                             </>
                                     }
