@@ -48,7 +48,7 @@ const MoreInfoModal = () => {
                             <br/>
                             <ul class="list-disc pl-5">
                                 <li>
-                                    Departure (Gili Trawangan) 8:30am 
+                                    Check-in Opposite the Jungle Bar (Gili Trawangan) 8:30am 
                                 </li>
                                 <li>
                                     Snorkelling Statue (Gili Meno) 8:40-10:10   
@@ -57,13 +57,13 @@ const MoreInfoModal = () => {
                                     Snorkelling Garden Fish (Gili Air) 10:40-12:10 
                                 </li>
                                 <li>
-                                    Water Sports and Lunch (Pantai Sire) 12:20-4:20 
+                                    Water Sports and Lunch (Pantai Sire) 12:20-16:20 
                                 </li>
                                 <li>
-                                    Snorkelling Turtle Point (Gili Trawangan) 4:50-6:20 
+                                    Snorkelling Turtle Point (Gili Trawangan) 4:50-18:20 
                                 </li>
                                 <li>
-                                    Dinner at Ocean 2 Restaurant (Gili Trawangan) 6:30-9:00pm 
+                                    Dinner at Ocean 2 Restaurant (Gili Trawangan) 6:30-21:00pm 
                                 </li>
                             </ul>
                             <br/>
