@@ -19,17 +19,17 @@ const MoreInfoModal = () => {
 
     return (
         <div class={`${modalState() ? 'flex' : 'hidden' }  fixed w-full z-50 h-screen bg-black top-0 left-0 bg-opacity-50`}>
-            <div class={`${modalState() ? 'opacity-100 duration-1000 ease-in-out' : 'opacity-0 duration-1000'} w-11/12 md:9/12 relative lg:w-7/12 m-auto p-5 bg-white rounded-sm`}>
+            <div class={`${modalState() ? 'opacity-100 duration-1000 ease-in-out' : 'opacity-0 duration-1000'} w-11/12 md:9/12 relative lg:w-7/12 m-auto p-5 bg-white rounded-sm max-h-[70vh] sm:h-auto overflow-y-scroll overflow-hidden sm:overflow-visible`}>
                 <button
                     onClick={handleCloseModal} 
-                    class="absolute -right-3 -top-3 flex text-gray-500 h-6 w-6 rounded-full bg-gray-50 ">
+                    class="absolute right-3 sm:-right-3 sm:-top-3 flex text-gray-500 h-6 w-6 rounded-full bg-gray-50 ">
                     <IoClose class="m-auto text-lg"/>
                 </button>
                 <h1 class="text-xl font-semibold">
                     {modalTitleState()}
                 </h1>
                 <br/>
-                <p>
+                <p class="">
                     {modalTextState() === 'full' 
                         ?
                         <div>
