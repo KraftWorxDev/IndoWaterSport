@@ -42,6 +42,12 @@ const Footer: Component = () => {
                                     Why us
                                 </a>
                             </li>
+                            <li>|</li>
+                            <li class="py-1">
+                                <a href="/gallery">
+                                    Gallery
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div class="w-full sm:w-1/5 flex mt-5 sm:mt-0">
