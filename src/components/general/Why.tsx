@@ -7,7 +7,7 @@ const Why = () => {
                 </h1>
                 <br />
                 <h3 class="text-center font-semibold" style={{"color":"#9ba6aa"}}>
-                   At INDO WATER SPORTS, OUR STAFF IS UNTIED BY THEIR PASSION FOR WATER SPORTS AND THEIR COMMITMENT TO PROVIDING EXCEPTIONAL SERVICE. 
+                   AT INDO WATER SPORTS, OUR STAFF IS UNTIED BY THEIR PASSION FOR WATER SPORTS AND THEIR COMMITMENT TO PROVIDING EXCEPTIONAL SERVICE. 
                 </h3>
                 <br />
                 <h3 class="text-center font-bold text-xl">
