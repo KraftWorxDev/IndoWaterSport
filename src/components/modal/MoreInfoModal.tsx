@@ -72,7 +72,79 @@ const MoreInfoModal = () => {
                             </p>
                         </div>
                         : 
-                        null
+                        <div>
+                            <p>
+                                Experience the ultimate aquatic adventure with our Watersport 
+                                Activity Package on the breathtaking island of Gili Trawangan.
+                                 Dive into excitement as you glide over crystal-clear waters 
+                                 on jet skis, bounce through waves on banana boats and donuts,
+                                and ride the waves like a pro with exhilarating wake-boarding 
+                                sessions. Get ready for an unforgettable day of thrills and 
+                                splashes in the stunning surroundings of Gili Trawangan. 
+                            </p>
+                            <br/>
+                            <p class="font-semibold">Time Schedule:</p>
+                            <br/>
+                            <div class="w-full flex flex-wrap">
+                                <div class="w-1/2">
+                                    <h2>
+                                        Water Sport Slot 1 from 10:00 – 14:00
+                                    </h2>
+                                    <ul class="list-disc pl-5">
+                                        <li>
+                                            Check-in Opposite the Jungle Bar – 09:30 
+                                        </li>
+                                        <li>
+                                            Jet ski – 20 min per person  
+                                        </li>
+                                        <li>
+                                            Donut – 15 minutes 
+                                        </li>
+                                        <li>
+                                            Banana – 15 minutes 
+                                        </li>
+                                        <li>
+                                            Wake Boarding – 10 minutes 
+                                        </li>
+                                        <li>
+                                            Return at 14:00m 
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="w-1/2">
+                                    <h2>
+                                        Water Sport Slot 2 from 12:00 – 16:00
+                                    </h2>
+                                    <ul class="list-disc pl-5">
+                                        <li>
+                                            Check-in Opposite the Jungle Bar – 11:30 
+                                        </li>
+                                        <li>
+                                            Jet ski – 20 min per person  
+                                        </li>
+                                        <li>
+                                            Donut – 15 minutes 
+                                        </li>
+                                        <li>
+                                            Banana – 15 minutes 
+                                        </li>
+                                        <li>
+                                            Wake Boarding – 10 minutes 
+                                        </li>
+                                        <li>
+                                            Return at 16:00 
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="w-full text-center mt-5">
+                                    Beach Volleyball Lunch available throughout tour
+                                </div>
+                            </div>
+                            <br/>
+                            <p>
+                                *The times above include traveling time between destinations 
+                            </p>
+                        </div>
                     }
                 </p>
             </div>
