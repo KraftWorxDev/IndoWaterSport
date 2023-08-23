@@ -39,7 +39,7 @@ const Nav: Component = () => {
             <nav class="w-full bg-white sticky top-0 border-b z-40">
                 <div class="px-3 lg:px-0 lg:w-10/12 flex justify-between m-auto py-1 items-center">
                     <div>
-                        <a href="#home">
+                        <a href="/#home">
                             <img
                                 class="h-12" 
                                 src={Logo} alt="indowatersports logo" 
@@ -90,48 +90,48 @@ const Nav: Component = () => {
             </nav>
             <div class={`${toggleMobileMenu() ? 'w-full' : 'w-0'} duration-300 overflow-hidden flex ease-in-out bg-sky-500 h-screen fixed top-0 left-0 z-30 lg:hidden`}>
                 <div class="w-full m-auto text-center gap-14 flex text-white text-3xl font-semibold flex-wrap">
-                    <a 
-                        href="#home"
+                    <A 
+                        href="/#home"
                         class="w-full"
                         onClick={() => setToggleMobileMenu(false)}
                     >
                         Home
-                    </a>
-                    <a 
-                        href="#about"// onClick={() => handleMobileScroll('about')}
+                    </A>
+                    <A 
+                        href="/#about"// onClick={() => handleMobileScroll('about')}
                         class="w-full"
                         onClick={() => setToggleMobileMenu(false)}
                     >
                         About us
-                    </a>
-                    <a 
-                        href="#packages"// onClick={() => handleMobileScroll('packages')}
+                    </A>
+                    <A 
+                        href="/#packages"// onClick={() => handleMobileScroll('packages')}
                         class="w-full"
                         onClick={() => setToggleMobileMenu(false)}
                     >
                         Packages
-                    </a>
-                    <a 
-                        href="#why"// onClick={() => handleMobileScroll('packages')}
+                    </A>
+                    <A 
+                        href="/#why"// onClick={() => handleMobileScroll('packages')}
                         class="w-full"
                         onClick={() => setToggleMobileMenu(false)}
                     >
                         Why us
-                    </a>
-                    <a 
+                    </A>
+                    <A 
                         href="/gallery"// onClick={() => handleMobileScroll('packages')}
                         class="w-full"
                         onClick={() => setToggleMobileMenu(false)}
                     >
                         Gallery
-                    </a>
-                    <a 
-                        href="#contact"// onClick={() => handleMobileScroll('contact')}
+                    </A>
+                    <A 
+                        href="/#contact"// onClick={() => handleMobileScroll('contact')}
                         class="w-full"
                         onClick={() => setToggleMobileMenu(false)}
                     >
                         Enquire Now
-                    </a>
+                    </A>
                 </div>
             </div>
             <MoreInfoModal />

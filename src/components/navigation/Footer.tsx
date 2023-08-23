@@ -2,6 +2,7 @@ import { Component } from "solid-js";
 import Logo from "../../assets/img/Indowatersports-Logo.png"
 import Kwi from "../../assets/img/KWI White.png"
 import MOANDCO from "../../assets/img/MO&CO (1).png"
+import { A } from "@solidjs/router";
 
 const Footer: Component = () => {
     return (
@@ -20,33 +21,33 @@ const Footer: Component = () => {
                     <div class="w-full sm:w-3/5 flex mt-5 sm:mt-0">
                         <ul class="pt-3 text-lg sm:text-xl flex gap-4 mx-auto">
                             <li class="py-1">
-                                <a href="#home">
+                                <A href="/#home">
                                     Home
-                                </a>
+                                </A>
                             </li>
                             <li>|</li>
                             <li class="py-1">
-                                <a href="#about">
+                                <A href="/#about">
                                     About us
-                                </a>
+                                </A>
                             </li>
                             <li>|</li>
                             <li class="py-1">
-                                <a href="#packages">
+                                <A href="/#packages">
                                     Packages
-                                </a>
+                                </A>
                             </li>
                             <li>|</li>
                             <li class="py-1">
-                                <a href="#why">
+                                <A href="/#why">
                                     Why us
-                                </a>
+                                </A>
                             </li>
                             <li>|</li>
                             <li class="py-1">
-                                <a href="/gallery">
+                                <A href="/gallery">
                                     Gallery
-                                </a>
+                                </A>
                             </li>
                         </ul>
                     </div>
